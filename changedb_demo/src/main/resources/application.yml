@@ -1,0 +1,16 @@
+datasource:
+  dynamic:
+    register:
+      properties[0]:
+         key: xss
+         url: jdbc:mysql://127.0.0.1:3306/jhly
+         username: root
+         password:  123456
+         driver-class-name: com.mysql.cj.jdbc.Driver
+      properties[1]:
+         key: forecast
+         url: jdbc:mysql://82.157.146.214:3306/evgis-base
+         username: root
+         password: 123456
+         driver-class-name: com.mysql.cj.jdbc.Driver
+      defaultKey: xss
